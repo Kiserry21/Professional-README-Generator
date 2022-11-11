@@ -4,8 +4,8 @@ function renderLicenseBadge(license) {
   if (license == "None") {
     return ``;
   }
-  let result = licensesDetails.filter(licenseDetail => licenseDetail.name == license);
-  return result[0].badge;
+  return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
+  
 }
 
 // TODO: Create a function that returns the license link
@@ -14,8 +14,7 @@ function renderLicenseLink(license) {
   if (license == "None") {
     return ``;
   }
-  let result = licensesDetails.filter(licenseDetail => licenseDetail.name == license);;
-  return result[0].link;
+  return `\n* [License](#license)\n`;
 }
 
 // TODO: Create a function that returns the license section of README

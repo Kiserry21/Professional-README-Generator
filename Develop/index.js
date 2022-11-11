@@ -146,10 +146,10 @@ function init() {
     inquirer.prompt(questions)
         .then(answers => {
             console.log(answers);
-            return generateMarkdown(answers);
+            return util(answers);
         })
         .then(pageMarkdown => {
-            writeToFile('./dist/README.md', pageMarkdown);
+            writeToFile('README.md', pageMarkdown);
             console.log('README.md created!')
         })
         .catch((error) => {
