@@ -40,12 +40,17 @@ WHEN I click on the links in the Table of Contents
 
 THEN I am taken to the corresponding section of the README
 
+
+
 GitHub Link
+
 https://github.com/Kiserry21/Professional-README-Generator
 
 Video Link
+
 https://drive.google.com/file/d/1-nByjkPqQcRO1lJwADXLDG0b4YZa3e4Y/view?usp=sharing
 
 Example README
+
 https://github.com/Kiserry21/Professional-README-Generator/blob/main/Develop/README.md
 
